@@ -1,0 +1,11 @@
+.Intervals{
+    transform: scale(1);
+}
+.Intervals-active{
+    transform: scale(0);
+}
+
+.unorderlist{
+    display: flex;
+    justify-content: space-between;
+}
