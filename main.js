@@ -81,3 +81,51 @@ div.appendChild(ul);
 todo.appendChild(div);
 ul.className="unorderlist";
 div.className="divison";
+ //loops//
+ //for loop//
+ console.log("For loop");
+ for(let i = 0;i<10;i++){
+    console.log(i);
+ };
+console.log("while loop");
+ let i = 0;
+ while(i<10){
+    console.log(i);
+    i++;
+ };
+ //do while//
+ console.log("do while");
+ let  p = 0;
+ do{
+    console.log(p);
+    p++;
+ }
+ while(p<5);
+ //condition statements//
+ const u = 20;
+ if(x<30){
+    console.log("true");
+ }else{
+    console.log("false");
+ }
+ const q = 20;
+ if(q<20){
+    console.log("hey");
+ }else if(q<30)
+ {
+    console.log("hello");
+ }
+ else{
+    console.log("hi");
+ }
+ const time = new Date().getHours();
+ console.log(time);
+ let times;
+ if(time<9){
+    times = "good morning";
+ }else if(time<11){
+    times = "good day";
+ }else{
+    times = "good afternoon";
+ }
+ console.log(times);
